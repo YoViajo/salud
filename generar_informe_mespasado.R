@@ -2,7 +2,7 @@
 #  Procesa el archivo generado por el sistema SUS    
 #  (Reportes de Adscripción)                         
 #  filtrando para dejar los registros correspondientes
-#  al municipio de Santa Cruz de la Sierra, para el  
+#  al municipio de Santa Cruz de la Sierra, para  
 #  el mes pasado                                     
 #                                    
 #  Desarrollado por:                 
