@@ -1,6 +1,9 @@
-# Recursos de Salud Pública en Bolivia
+# Herramientas de apoyo a la gestión de salud pública
 
-### Repositorio (no-oficial) Secretaría Municipal de Salud, municipio de Santa Cruz, Bolivia
+### Repositorio (no-oficial) de la Secretaría Municipal de Salud, municipio de Santa Cruz, Bolivia
+
+
+
 
 **Código R**
 - [Enviar anuncio por correo-e Outlook](enviar_correoe.R)
