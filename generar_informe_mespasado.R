@@ -5,7 +5,7 @@
 #  al municipio de Santa Cruz de la Sierra, para  
 #  el mes pasado     
 #  Requiere descargar previamente el archivo SUS
-#  (MS Excel) del sitio web https://sus.minsalud.gob.bo/loginS
+#  (MS Excel) del sitio web https://sus.minsalud.gob.bo/login
 #                                    
 #  Desarrollado por:                 
 #  Eric Armijo  (rcrmj@hotmail.com)  
