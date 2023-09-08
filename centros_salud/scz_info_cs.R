@@ -1,6 +1,6 @@
 library(shiny)
 
-# Define UI for application that draws a histogram
+# Define UI for application
 ui <- fluidPage(
   titlePanel(
     "Información de Centros de Salud",
@@ -33,7 +33,7 @@ ui <- fluidPage(
   )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic required
 server <- function(input, output, session) {
   
   data <- reactiveVal(NULL)
