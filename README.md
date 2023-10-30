@@ -12,3 +12,6 @@
 
 **Aplicaciones**
 - [Información sobre Centros de Salud (shiny)](https://yoviajo.shinyapps.io/scz_info_cs/)
+
+**Mapas**
+- [Infraestructura municipal de salud](mapas/mapa base H2N y RdS formato grande.pdf)
