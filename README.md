@@ -16,3 +16,4 @@
 **Mapas**
 - [Infraestructura municipal de salud](mapas/mapa_base_H2N_y_RdS_formato_grande.png)
 - [Hospitales municipales y distritos municipales](mapas/mapa_hospitales_municipales_DMs.png)
+- [Centros de salud por Distrito Municipal](mapas/redes/x_distrito/)
