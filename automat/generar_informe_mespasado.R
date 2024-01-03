@@ -3,7 +3,7 @@
 #  (Reportes de Adscripción)                         
 #  filtrando para dejar los registros correspondientes
 #  al municipio de Santa Cruz de la Sierra, para  
-#  el mes pasado     
+#  el MES PASADO     
 #  Requiere descargar previamente el archivo SUS
 #  (MS Excel) del sitio web https://sus.minsalud.gob.bo/login
 #                                    
@@ -39,7 +39,7 @@ file_paths <- list.files(pattern = "\\.xlsx$")
 # Itera sobre cada archivo
 for (file_path in file_paths) {
   # Lee la primera hoja del archivo de Excel en un data.frame, saltando la primera fila
-  data <- read_excel(file_path, skip = 1)
+  data <- read_excel(file_path, skip = 0)
   
   
   # Filtra las filas donde el campo "Municipio" es igual a "SANTA CRUZ DE LA SIERRA",
