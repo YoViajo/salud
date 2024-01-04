@@ -4,10 +4,11 @@
 #     Distingue registros en horarios continuo y discontinuo
 #     Calcula el tiempo en minutos de atrasos en entradas: atraso por día y sumatoria
 #     Identifica días donde faltó algún registro de entrada o salida
-#	  Requiere un archivo Excel de entrada y dos subdirectorios ("entrada" y "salida").
+#     Requiere un archivo Excel de entrada y dos subdirectorios ("entrada" y "salida").
 #     Colocar el archivo Excel en directorio "entrada"
 #     Devuelve un archivo Excel
 #
+#     Eric Armijo (rcrmj@hotmail.com), Enero 2024
 
 # Inicializar
 rm(list = ls())
