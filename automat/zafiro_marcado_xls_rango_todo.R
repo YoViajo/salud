@@ -8,7 +8,7 @@
 #     Colocar el archivo Excel en directorio "entrada"
 #     Devuelve un archivo Excel
 #
-#     Eric Armijo (rcrmj@hotmail.com), Enero 2024
+#     >>Eric Armijo (rcrmj@hotmail.com), Enero 2024
 
 # Inicializar
 rm(list = ls())
