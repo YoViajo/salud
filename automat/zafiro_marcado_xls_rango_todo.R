@@ -5,7 +5,7 @@
 #     Calcula el tiempo en minutos de atrasos en entradas: atraso por día y sumatoria
 #     Identifica días donde faltó algún registro de entrada o salida
 #	  Requiere un archivo Excel de entrada y dos subdirectorios ("entrada" y "salida").
-#     Colocar el archicho Excel en directorio "entrada"
+#     Colocar el archivo Excel en directorio "entrada"
 #     Devuelve un archivo Excel
 #
 
