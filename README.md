@@ -9,6 +9,7 @@
 - [Información sobre centros de salud (shiny)](centros_salud/aplic/consulta_CS.R)
 - [Enviar anuncio por correo-e Outlook](automat/enviar_correoe.R)
 - [Procesar archivo SUS de adscripciones](automat/generar_informe_mespasado.R)
+- [Generar informes sobre marcado biométrico](automat/zafiro_marcado_xls_rango_todo.R)
 
 **Aplicaciones**
 - [Información sobre Centros de Salud (shiny)](https://yoviajo.shinyapps.io/scz_info_cs/)
