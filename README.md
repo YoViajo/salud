@@ -22,3 +22,4 @@
 - [Centros de salud cercanos al Hospital Plan 3000](mapas/centros_salud_cercanos_HMP3K.png)
 - [Centros de salud cercanos al Hospital Villa Primero de Mayo](mapas/centros_salud_cercanos_HMVPM.png)
 - [Asignación de centros de salud a hospitales más cercanos](mapas/distancia_eje_CS-H2N.png)
+- [Área de influencia (polígonos Voronoi) de hospitales municipales](mapas/H2N_polig_voronoi_munic.png)
