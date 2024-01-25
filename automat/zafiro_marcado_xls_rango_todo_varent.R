@@ -1,15 +1,3 @@
-#
-# Identifica atrasos y marcados faltantes a partir de registros biométricos Zafiro
-#     Procesa todos los días disponibles en el archivo Excel de entrada, que necesita definirse
-#     Distingue registros en horarios continuo y discontinuo
-#     Calcula el tiempo en minutos de atrasos en entradas: atraso por día y sumatoria
-#     Identifica días donde faltó algún registro de entrada o salida
-#     Requiere un archivo Excel de entrada y dos subdirectorios ("entrada" y "salida").
-#     Colocar el archivo Excel en directorio "entrada"
-#     Devuelve un archivo Excel
-#
-#     >>Eric Armijo (rcrmj@hotmail.com), Enero 2024
-
 # Inicializar
 rm(list = ls())
 graphics.off()
@@ -21,14 +9,14 @@ library(hms)
 library(dplyr)
 library(writexl)
 
-# Cambiar el directorio de trabajo
-setwd("D:/Users/earmijo/Documents/lab/analitica/06/")
+# Cambiar el directorio de trabajo usando una variable de entorno
+setwd(Sys.getenv("dir_trabajo"))
 
 if (!dir.exists("entrada")) dir.create("entrada")
 if (!dir.exists("salida")) dir.create("salida")
 
-# Leer el archivo desde la hoja especificada
-archivo <- "entrada/zafiro_biom_19nov-20dic2023.xlsx"
+# Leer el archivo desde la hoja especificada usando una variable de entorno
+archivo <- paste0(Sys.getenv("dir_trabajo"), Sys.getenv("arch_entrada"))
 datos <- read_excel(archivo, sheet = "BD")
 
 # Convertir la columna de FECHA a tipo Date
@@ -131,7 +119,8 @@ informacion_final <- data.frame(
 # Generar el nombre del archivo de salida basado en las fechas
 nombre_archivo_temp <- paste0("bd_marcado_biom_", format(fecha_inicio_date, "%d%b"), "-", format(fecha_final_date, "%d%b%Y"))
 nombre_archivo_limpio <- gsub("\\.", "", nombre_archivo_temp)  # Eliminar el punto si existe
-nombre_archivo <- paste0("salida/", nombre_archivo_limpio, ".xlsx") # Añadir la extensión .xlsx
+nombre_archivo <- paste0("salida/", nombre_archivo_limpio, ".xlsx") 
 
 # Guardar todo en un archivo Excel
-write_xlsx(list("Datos" = datos, "Atraso por día" = atraso_por_dia, "Información Final" = informacion_final, "Días con Evento Faltante" = dias_evento_faltante), nombre_archivo)
+write_xlsx(list("Datos" = datos, "Atraso por día" = atraso_por_dia, "Información Final" = informacion_final, "Días con Evento Faltante" = dias_evento_faltante), 
+           paste0(Sys.getenv("dir_trabajo"), nombre_archivo))
