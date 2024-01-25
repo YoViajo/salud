@@ -7,7 +7,7 @@
 
 **Código R**
 - [Información sobre centros de salud (shiny)](centros_salud/aplic/consulta_CS.R)
-- [Enviar anuncio por correo-e Outlook](automat/enviar_correoe.R)
+- [Enviar anuncio por correo-e Outlook](automat/enviar_correoe_varent.R)
 - [Procesar archivo SUS de adscripciones](automat/generar_informe_mespasado.R)
 - [Generar informes sobre marcado biométrico](automat/zafiro_marcado_xls_rango_todo_varent.R)
 
