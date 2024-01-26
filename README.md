@@ -19,6 +19,7 @@
 - [Hospitales municipales y distritos municipales](mapas/mapa_hospitales_municipales_DMs.png)
 - [Centros de salud por Distrito Municipal](mapas/redes/x_distrito/)
 - [Centros de salud cercanos al Hospital Bajío del Oriente](mapas/centros_salud_cercanos_HMBO.png)
+- [Centros de salud cercanos al Hospital Pampa de la Isla](mapas/centros_salud_cercanos_HMPI.png)
 - [Centros de salud cercanos al Hospital Plan 3000](mapas/centros_salud_cercanos_HMP3K.png)
 - [Centros de salud cercanos al Hospital Villa Primero de Mayo](mapas/centros_salud_cercanos_HMVPM.png)
 - [Asignación de centros de salud a hospitales más cercanos](mapas/distancia_eje_CS-H2N.png)
