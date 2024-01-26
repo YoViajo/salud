@@ -1,6 +1,6 @@
 # Herramientas de apoyo a la gestión de salud pública
 
-### Repositorio (no-oficial) de la Secretaría Municipal de Salud, municipio de Santa Cruz, Bolivia
+### Repositorio (no-oficial) de la Secretaría Municipal de Salud, municipio de Santa Cruz de la Sierra, Bolivia
 
 
 
