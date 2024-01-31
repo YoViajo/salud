@@ -28,4 +28,4 @@
 
 **Epidemiología**
 - [Análisis exploratorio de datos de casos de COVID-19 para el municipio (cód R)](epidem/01/)
-- [Exploración de datos de movilidad de personas con datos Google Mobility](epidem/02/)
+- [Exploración de datos de movilidad de personas con datos Google Mobility (cód R)](epidem/02/)
