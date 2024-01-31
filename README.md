@@ -27,4 +27,4 @@
 - [Área de influencia (polígonos Voronoi) de hospitales municipales](mapas/H2N_polig_voronoi_munic.png)
 
 **Epidemiología**
-- [Informe básico de casos de COVID-19 para el municipio](epidem/01/)
+- [Análisis exploratorio de datos de casos de COVID-19 para el municipio (cód R)](epidem/01/)
