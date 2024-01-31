@@ -1,0 +1,11 @@
+https://www.google.com/covid19/mobility/
+
+Exploración de tendencia de movilidad en Bolivia usando datos abiertos de Google Mobility
+
+comparación de tendencia de ubicación para diferentes categorías de lugares: 
+- comercio minorista y actividades recreativas
+- lugares de trabajo
+- parques
+- residencial
+- tiendas de comestibles y farmacias
+
