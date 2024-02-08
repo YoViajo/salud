@@ -25,6 +25,7 @@
 - [Asignación de centros de salud a hospitales más cercanos](mapas/distancia_eje_CS-H2N.png)
 - [Centros de salud por Distrito Municipal](mapas/redes/x_distrito/)
 - [Área de influencia (polígonos Voronoi) de hospitales municipales](mapas/H2N_polig_voronoi_munic.png)
+- [Distritos municipales, Unidades vecinales y Manzanas](mapas/mapa_base_Scz_DMs_UVs_MZs_120x120.png)
 - [Distrito municipal 1 - mapa base](mapas/mapa_base_DM1_ubic_mancha.png)
 
 **Epidemiología**
