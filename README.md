@@ -15,7 +15,7 @@
 - [Información sobre Centros de Salud (shiny)](https://yoviajo.shinyapps.io/scz_info_cs/)
 
 **Mapas**
-- [Infraestructura municipal de salud](mapas/SMS_infraestructura_de_salud_2024jul.png)
+- [Infraestructura municipal de salud](mapas/SMS_infraestructura_salud_2024jul.png)
 - [Hospitales municipales y distritos municipales](mapas/mapa_hospitales_municipales_DMs.png)
 - [Centros de salud por Distrito Municipal](mapas/redes/x_distrito/)
 - [Centros de salud cercanos al Hospital Bajío del Oriente](mapas/centros_salud_cercanos_HMBO.png)
