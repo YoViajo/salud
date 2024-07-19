@@ -29,11 +29,11 @@
   - [Asignación de centros de salud a hospitales más cercanos](mapas/distancia_eje_CS-H2N.png)
   - [Área de influencia (polígonos Voronoi) de hospitales municipales](mapas/H2N_polig_voronoi_munic.png)
 - Redes de Salud
-  - [Centros de salud por Distrito Municipal](mapas/redes/x_distrito/)
   - [Red de Salud Centro](mapas/redes/mapa_base_Red_Centro.png)
   - [Red de Salud Este](mapas/redes/mapa_base_Red_Este.png)
   - [Red de Salud Norte](mapas/redes/mapa_base_Red_Norte.png)
   - [Red de Salud Sur](mapas/redes/mapa_base_Red_Sur.png)
+  - [Centros de salud por Distrito Municipal](mapas/redes/x_distrito/)
 
 **Epidemiología**
 - [Análisis exploratorio de datos de casos de COVID-19 para el municipio (cód R)](epidem/01/)
