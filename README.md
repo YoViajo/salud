@@ -16,7 +16,7 @@
 
 **Mapas**
 - General
-  - [Infraestructura municipal de salud](mapas/SMS_infraestructura_salud_2024jul.png)
+  - [Infraestructura municipal de salud](mapas/SMS_infraestructura_salud_2024jul_alt.png)
   - [Distritos municipales, Unidades vecinales y Manzanas](mapas/mapa_base_Scz_DMs_UVs_MZs_120x120.png)
   - [Distrito municipal 1 - mapa base](mapas/mapa_base_DM1_ubic_mancha.png)
 - Hospitales Municipales
